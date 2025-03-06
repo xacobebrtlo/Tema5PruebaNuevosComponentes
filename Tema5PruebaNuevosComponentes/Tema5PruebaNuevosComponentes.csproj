@@ -67,11 +67,20 @@
       <DependentUpon>labelTextbox.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidateTextbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ValidateTextbox.Designer.cs">
+      <DependentUpon>ValidateTextbox.cs</DependentUpon>
+    </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="labelTextbox.resx">
       <DependentUpon>labelTextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidateTextbox.resx">
+      <DependentUpon>ValidateTextbox.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

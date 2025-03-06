@@ -21,6 +21,7 @@ namespace FormPruebaComponentes
         public Form1()
         {
             InitializeComponent();
+            validateTextbox1.Text = "hola hola \n hola";
         }
 
         private void labelTextBox1_KeyPress(object sender, KeyPressEventArgs e)
